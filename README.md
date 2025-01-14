@@ -5,10 +5,7 @@ Esta é uma **API RESTful** para gerenciamento de usuários, permitindo o **regi
 ## Funcionalidades
 
 - **Registro de Usuários**: Criação de novos usuários com validação de dados (e-mail único, senha segura).
-- **Autenticação de Usuários**: Login com **JWT (JSON Web Tokens)** para autenticação segura.
 - **Armazenamento no MongoDB**: Usuários armazenados de forma segura no banco de dados **MongoDB**.
-- **Validação de Dados**: Verificação de campos obrigatórios, como e-mail válido e senha forte.
-- **Rotas protegidas**: Middleware de autenticação para garantir que apenas usuários autenticados acessem determinadas rotas.
 
 ## Tecnologias Utilizadas
 
